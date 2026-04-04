@@ -26,11 +26,6 @@ DIFICULDADES ENCONTRADAS:
 - realizar a lógica de switch case para o menu da aplicação
 - conseguir compreender a manipulação dos ponteiros tando para inclusão no inicio/final, quanto para exclusão
 
-COMO COMPILAR:
-gcc main.c biblioteca.c -o biblioteca
-
-COMO EXECUTAR:
-./biblioteca
 
 FUNCIONALIDADES DO MENU:
 1 - Inserir no início
