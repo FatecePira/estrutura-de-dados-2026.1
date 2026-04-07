@@ -1,27 +1,12 @@
-# Trabalho Prático 01 — Lista Duplamente Encadeada em C
+Trabalho Prático 01 — Lista Duplamente Encadeada em C
 
-**Curso:** Ciência da Computação
-**Disciplina:** Estrutura de Dados
-**Professora:** Stefane Menezes
+Integrantes: Yury de Oliveira / João Carlos Pilão Filisbino
 
----
-
-## 👥 Integrantes
-
-* Yury de Oliveira / João Carlos Pilão Filisbino
-
----
-
-## 📌 Descrição do Projeto
-
+Descrição do Projeto
 Este projeto consiste na implementação de uma lista duplamente encadeada em linguagem C para o gerenciamento de livros de uma biblioteca universitária. A estrutura permite inserções, remoções e consultas dinâmicas, além da navegação nos dois sentidos da lista, atendendo aos requisitos propostos no trabalho prático da disciplina.
 
----
-
-## 🧱 Estrutura de Dados
-
+Estrutura de Dados
 A lista é composta por nós que representam livros. Cada nó armazena:
-
 * Código do livro
 * Título
 * Autor
@@ -35,9 +20,7 @@ Cada nó possui dois ponteiros:
 
 A lista mantém referências para o primeiro e o último nó, facilitando operações nas extremidades.
 
----
-
-## ⚙️ Funcionalidades Implementadas
+Funcionalidades Implementadas
 
 * Inserção de livro no início da lista
 * Inserção de livro no final da lista
@@ -47,32 +30,19 @@ A lista mantém referências para o primeiro e o último nó, facilitando opera�
 * Listagem dos livros em ordem reversa
 * Contagem do total de livros cadastrados
 
----
-
-## 🧠 Gerenciamento de Memória
-
+Gerenciamento de Memória
 A alocação de memória é realizada dinamicamente utilizando `malloc`, e a liberação ocorre com `free`, tanto na remoção de elementos quanto no encerramento do programa, evitando vazamentos de memória.
 
----
-
-## ▶️ Execução do Programa
-
+Execução do Programa
 Compilação:
-
 ```bash
 gcc lista_dupla.c -o lista_dupla
 ```
-
 Execução:
-
 ```bash
 ./lista_dupla
 ```
-
 O programa apresenta um menu interativo no terminal para acesso às funcionalidades.
 
----
-
-## ⚠️ Observações
-
+Observações
 O projeto foi desenvolvido sem o uso de bibliotecas prontas para listas, utilizando exclusivamente estruturas, ponteiros e alocação dinâmica, conforme solicitado no enuncia
