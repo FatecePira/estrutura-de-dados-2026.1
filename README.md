@@ -53,7 +53,7 @@ Durante o desenvolvimento, os principais desafios foram:
 ## Como Compilar
 
 ```bash
-gcc *.c -o simulador
+.\compilar.ps1
 ```
 
 ## Como Executar
