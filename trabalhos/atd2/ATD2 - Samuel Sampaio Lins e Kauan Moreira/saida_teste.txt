@@ -1,0 +1,593 @@
+
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA LISTA SEQUENCIAL =====
+1 - Inserir elemento em uma posicao
+2 - Remover elemento de uma posicao
+3 - Buscar elemento por ID
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Posicao para inserir (comecando em 1): Elemento inserido com sucesso.
+
+===== MENU DA LISTA SEQUENCIAL =====
+1 - Inserir elemento em uma posicao
+2 - Remover elemento de uma posicao
+3 - Buscar elemento por ID
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== LISTA SEQUENCIAL =====
+Posicao 1 -> ID: 10 | Nome: Alice
+
+===== MENU DA LISTA SEQUENCIAL =====
+1 - Inserir elemento em uma posicao
+2 - Remover elemento de uma posicao
+3 - Buscar elemento por ID
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID para buscar: Elemento encontrado na posicao 1:
+ID: 10 | Nome: Alice | Prioridade: 0
+
+===== MENU DA LISTA SEQUENCIAL =====
+1 - Inserir elemento em uma posicao
+2 - Remover elemento de uma posicao
+3 - Buscar elemento por ID
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Posicao para remover (comecando em 1): Elemento removido:
+ID: 10 | Nome: Alice | Prioridade: 0
+
+===== MENU DA LISTA SEQUENCIAL =====
+1 - Inserir elemento em uma posicao
+2 - Remover elemento de uma posicao
+3 - Buscar elemento por ID
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento inserido no inicio com sucesso.
+
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento inserido no fim com sucesso.
+
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== LISTA SIMPLESMENTE ENCADEADA =====
+No 1 -> ID: 20 | Nome: Inicio
+No 2 -> ID: 21 | Nome: Fim
+
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID para buscar: Elemento encontrado:
+ID: 20 | Nome: Inicio | Prioridade: 0
+
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID para remover: Elemento removido:
+ID: 21 | Nome: Fim | Prioridade: 0
+
+===== MENU DA LISTA SIMPLESMENTE ENCADEADA =====
+1 - Inserir elemento no inicio
+2 - Inserir elemento no fim
+3 - Remover elemento por ID
+4 - Buscar elemento por ID
+5 - Exibir estrutura
+6 - Verificar se esta vazia
+7 - Verificar quantidade de elementos
+8 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA PILHA =====
+1 - Empilhar elemento
+2 - Desempilhar elemento
+3 - Consultar topo
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento empilhado com sucesso.
+
+===== MENU DA PILHA =====
+1 - Empilhar elemento
+2 - Desempilhar elemento
+3 - Consultar topo
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Topo da pilha:
+ID: 30 | Nome: Topo | Prioridade: 0
+
+===== MENU DA PILHA =====
+1 - Empilhar elemento
+2 - Desempilhar elemento
+3 - Consultar topo
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 30 | Nome: Topo | Prioridade: 0
+
+===== MENU DA PILHA =====
+1 - Empilhar elemento
+2 - Desempilhar elemento
+3 - Consultar topo
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA FILA =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio da fila
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento enfileirado com sucesso.
+
+===== MENU DA FILA =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio da fila
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento enfileirado com sucesso.
+
+===== MENU DA FILA =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio da fila
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Inicio da fila:
+ID: 40 | Nome: Primeiro | Prioridade: 0
+
+===== MENU DA FILA =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio da fila
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 40 | Nome: Primeiro | Prioridade: 0
+
+===== MENU DA FILA =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio da fila
+4 - Exibir estrutura
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento enfileirado com sucesso.
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento enfileirado com sucesso.
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: Inicio da fila circular:
+ID: 50 | Nome: Circular1 | Prioridade: 0
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: Fim da fila circular:
+ID: 51 | Nome: Circular2 | Prioridade: 0
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 50 | Nome: Circular1 | Prioridade: 0
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== FILA CIRCULAR [INICIO -> FIM] =====
+Indice inicio: 1 | Indice fim: 1
+Indice 1 -> ID: 51 | Nome: Circular2
+
+===== MENU DA FILA CIRCULAR =====
+1 - Enfileirar elemento
+2 - Desenfileirar elemento
+3 - Consultar inicio
+4 - Consultar fim
+5 - Exibir estrutura
+6 - Verificar se esta cheia
+7 - Verificar se esta vazia
+8 - Verificar quantidade de elementos
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento inserido no inicio com sucesso.
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Elemento inserido no fim com sucesso.
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Inicio da fila dupla:
+ID: 60 | Nome: InicioDeque | Prioridade: 0
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Fim da fila dupla:
+ID: 61 | Nome: FimDeque | Prioridade: 0
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== FILA DUPLA [INICIO -> FIM] =====
+ID: 60 | Nome: InicioDeque
+ID: 61 | Nome: FimDeque
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 60 | Nome: InicioDeque | Prioridade: 0
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 61 | Nome: FimDeque | Prioridade: 0
+
+===== MENU DA FILA DUPLA =====
+1 - Inserir no inicio
+2 - Inserir no fim
+3 - Remover do inicio
+4 - Remover do fim
+5 - Consultar inicio
+6 - Consultar fim
+7 - Exibir estrutura
+8 - Verificar se esta vazia
+9 - Verificar quantidade de elementos
+10 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: 
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Prioridade: Elemento inserido com prioridade com sucesso.
+
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: ID: Nome: Prioridade: Elemento inserido com prioridade com sucesso.
+
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== FILA DE PRIORIDADE [MAIOR -> MENOR] =====
+ID: 71 | Nome: Alta | Prioridade: 5
+ID: 70 | Nome: Baixa | Prioridade: 1
+
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Proximo elemento a ser removido:
+ID: 71 | Nome: Alta | Prioridade: 5
+
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: Elemento removido:
+ID: 71 | Nome: Alta | Prioridade: 5
+
+===== MENU DA FILA DE PRIORIDADE =====
+1 - Inserir elemento com prioridade
+2 - Remover elemento de maior prioridade
+3 - Consultar proximo elemento a ser removido
+4 - Exibir fila ordenada por prioridade
+5 - Verificar se esta vazia
+6 - Verificar quantidade de elementos
+7 - Verificar se esta cheia
+0 - Voltar ao menu principal
+Escolha uma opcao: 
+===== SIMULADOR DE ESTRUTURAS DE DADOS =====
+1 - Lista Sequencial
+2 - Lista Simplesmente Encadeada
+3 - Pilha
+4 - Fila
+5 - Fila Circular
+6 - Fila Dupla
+7 - Fila de Prioridade
+0 - Sair
+Escolha uma estrutura: Encerrando o sistema...
