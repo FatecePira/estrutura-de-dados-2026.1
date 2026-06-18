@@ -1,0 +1,184 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Estrutura do Nó
+typedef struct No {
+    int codigo;
+    char titulo[100];
+    char autor[100];
+    int ano;
+    int quantidade;
+    struct No* anterior;
+    struct No* proximo;
+} No;
+
+// Função sugerida: criarLista
+No* criarLista() {
+    return NULL;
+}
+
+// Função auxiliar para alocar memória 
+No* criarNo(int codigo, char titulo[], char autor[], int ano, int quantidade) {
+    No* novo = (No*) malloc(sizeof(No));
+    if (novo == NULL) {
+        printf("Erro de alocacao de memoria!\n");
+        exit(1);
+    }
+    novo->codigo = codigo;
+    strcpy(novo->titulo, titulo);
+    strcpy(novo->autor, autor);
+    novo->ano = ano;
+    novo->quantidade = quantidade;
+    novo->anterior = NULL;
+    novo->proximo = NULL;
+    return novo;
+}
+
+// 1. Inserir no inicio
+void inserirInicio(No** lista) {
+    int cod, ano, qtd;
+    char tit[100], aut[100];
+    printf("Codigo: "); scanf("%d", &cod);
+    printf("Titulo: "); scanf(" %[^\n]", tit);
+    printf("Autor: ");  scanf(" %[^\n]", aut);
+    printf("Ano: ");    scanf("%d", &ano);
+    printf("Quantidade: "); scanf("%d", &qtd);
+
+    No* novo = criarNo(cod, tit, aut, ano, qtd);
+    if (*lista != NULL) {
+        novo->proximo = *lista;
+        (*lista)->anterior = novo;
+    }
+    *lista = novo;
+    printf("Livro inserido no inicio!\n");
+}
+
+// 2. Inserir no Final
+void inserirFinal(No** lista) {
+    int cod, ano, qtd;
+    char tit[100], aut[100];
+    printf("Codigo: "); scanf("%d", &cod);
+    printf("Titulo: "); scanf(" %[^\n]", tit);
+    printf("Autor: ");  scanf(" %[^\n]", aut);
+    printf("Ano: ");    scanf("%d", &ano);
+    printf("Quantidade: "); scanf("%d", &qtd);
+
+    No* novo = criarNo(cod, tit, aut, ano, qtd);
+    if (*lista == NULL) {
+        *lista = novo;
+    } else {
+        No* temp = *lista;
+        while (temp->proximo != NULL) temp = temp->proximo;
+        temp->proximo = novo;
+        novo->anterior = temp;
+    }
+    printf("Livro inserido no final!\n");
+}
+
+// 3. Remover livro 
+void removerLivro(No** lista, int codigo) {
+    No* temp = *lista;
+    while (temp != NULL && temp->codigo != codigo) temp = temp->proximo;
+
+    if (temp == NULL) {
+        printf("Livro nao encontrado!\n");
+        return;
+    }
+
+    if (temp->anterior != NULL) temp->anterior->proximo = temp->proximo;
+    else *lista = temp->proximo;
+
+    if (temp->proximo != NULL) temp->proximo->anterior = temp->anterior;
+
+    free(temp); // Liberar memória 
+    printf("Livro removido com sucesso!\n");
+}
+
+// 4. Buscar livro 
+void buscarLivro(No* lista, int codigo) {
+    No* temp = lista;
+    while (temp != NULL) {
+        if (temp->codigo == codigo) {
+            printf("\n--- Dados do Livro ---\n");
+            printf("Titulo: %s | Autor: %s | Ano: %d\n", temp->titulo, temp->autor, temp->ano);
+            return;
+        }
+        temp = temp->proximo;
+    }
+    printf("Livro nao encontrado!\n");
+}
+
+// 5. Imprimir lista (Ordem Direta) 
+void imprimirLista(No* lista) {
+    printf("\n--- Estante (Ordem Direta) ---\n");
+    while (lista != NULL) {
+        printf("[%d] %s\n", lista->codigo, lista->titulo);
+        lista = lista->proximo;
+    }
+}
+
+// 6. Imprimir lista (Ordem Reversa) 
+void imprimirListaReversa(No* lista) {
+    if (lista == NULL) return;
+    No* temp = lista;
+    while (temp->proximo != NULL) temp = temp->proximo;
+    
+    printf("\n--- Estante (Ordem Reversa) ---\n");
+    while (temp != NULL) {
+        printf("[%d] %s\n", temp->codigo, temp->titulo);
+        temp = temp->anterior;
+    }
+}
+
+// 7. Contar elementos 
+int contarElementos(No* lista) {
+    int c = 0;
+    while (lista != NULL) { c++; lista = lista->proximo; }
+    return c;
+}
+
+// Função extra para evitar Memory Leak ao sair 
+void limparLista(No** lista) {
+    No* temp;
+    while (*lista != NULL) {
+        temp = *lista;
+        *lista = (*lista)->proximo;
+        free(temp);
+    }
+}
+
+int main() {
+    No* minhaLista = criarLista();
+    int op, cod;
+
+    do {
+    
+        printf("\n1 - Inserir livro no final");
+        printf("\n2 - Inserir livro no inicio");
+        printf("\n3 - Remover livro");
+        printf("\n4 - Buscar livro");
+        printf("\n5 - Listar livros (direta)");
+        printf("\n6 - Listar livros (reversa)");
+        printf("\n7 - Quantidade de livros");
+        printf("\n0 - Sair\nOpcao: ");
+        scanf("%d", &op);
+
+        switch(op) {
+            case 1: inserirFinal(&minhaLista); break;
+            case 2: inserirInicio(&minhaLista); break;
+            case 3: 
+                printf("Codigo para remover: "); scanf("%d", &cod);
+                removerLivro(&minhaLista, cod); break;
+            case 4:
+                printf("Codigo para busca: "); scanf("%d", &cod);
+                buscarLivro(minhaLista, cod); break;
+            case 5: imprimirLista(minhaLista); break;
+            case 6: imprimirListaReversa(minhaLista); break;
+            case 7: printf("Total: %d\n", contarElementos(minhaLista)); break;
+            case 0: limparLista(&minhaLista); break;
+        }
+    } while (op != 0);
+
+    return 0;
+}
